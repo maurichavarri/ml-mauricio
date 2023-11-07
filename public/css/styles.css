@@ -1,0 +1,142 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0px;
+}
+
+header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+main {
+    background-color: #ebebeb;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    width: 50vw;
+    margin: 10px;
+}
+
+#search {
+    background-color: white;
+    border: solid 1px black;
+}
+
+#lupa {
+    background-color: white;
+    border: solid 1px black;
+    padding: 2px;
+}
+
+#compra-en-cuotas {
+    text-align: center;
+}
+
+nav {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#div-burger-menu {
+    text-align: center;
+}
+
+#burger-menu {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+}
+
+.titulares {
+    text-align: center;
+    font-size: 24px;
+}
+
+.section-productos {
+    width: 90vw;
+    margin: auto;
+}
+
+article {
+    margin-bottom: 10px;
+}
+
+.img {
+    text-align: center;
+}
+
+.img-productos {
+    width: 88vw;
+}
+
+.contenido-producto {
+    background-color: white;
+    width: 88vw;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.img-camion {
+    color: #39b54a;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos,
+.descrip {
+    font-size: 16px;
+}
+
+.descuentos {
+    color: #39b54a;
+}
+
+.descrip {
+    display: none;
+}
+
+.footer-icones {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+/* tablet */
+@media (min-width: 361px) {
+    .descrip {
+        display: block;
+    }
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    nav {
+        display: block;
+    }
+
+    #div-burger-menu {
+        display: none;
+    }
+
+    .titulares {
+        text-align: center;
+    }
+}
+
+/* desktop */
+@media (min-width: 769px) {
+    
+}
