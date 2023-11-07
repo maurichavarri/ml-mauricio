@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 header {
@@ -75,12 +76,12 @@ article {
 }
 
 .img-productos {
-    width: 88vw;
+    width: 88%;
 }
 
 .contenido-producto {
     background-color: white;
-    width: 88vw;
+    width: 88%;
     border-top: solid 1px #ebebeb;
     padding: 15px;
     margin: auto;
@@ -113,7 +114,7 @@ article {
     margin-bottom: 10px;
 }
 
-/* tablet */
+/* tablet 
 @media (min-width: 361px) {
     .descrip {
         display: block;
@@ -134,9 +135,30 @@ article {
     .titulares {
         text-align: center;
     }
-}
+}*/
 
 /* desktop */
 @media (min-width: 769px) {
-    
+
+    .section-productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    article{
+        width: 40%;
+    }
+
+    #div-burger-menu {
+        display: none;
+    }
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    nav {
+        display: block;
+    }
 }
