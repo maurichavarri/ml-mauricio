@@ -1,0 +1,29 @@
+#caja-general {
+    width: 100%;
+}
+
+#caja-de-registro {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#caja-nombre-usuario-email {
+    text-align: center;
+}
+
+#caja-fecha-nacimiento {
+    text-align: center;
+}
+
+#caja-perfil-usuario {
+    text-align: center;
+}
+
+#caja-intereses {
+    text-align: center;
+}
+
+#submit {
+    text-align: center;
+}
